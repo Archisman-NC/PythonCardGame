@@ -1,5 +1,7 @@
+# Section 1
 from random import shuffle
 
+# Section 2
 class Deck:
     suites = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
     values = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
@@ -16,6 +18,7 @@ class Deck:
         else:
             return self.mycardset.pop()
 
+# Section 3
 class ShuffleCards(Deck):
     def __init__(self):
         super().__init__()
@@ -26,11 +29,12 @@ class ShuffleCards(Deck):
         else:
             shuffle(self.mycardset)
             return self.mycardset
-
+# Section 4
 objDeck = Deck()
 player1Cards = objDeck.mycardset
 print('\nPlayer 1 Cards:\n', player1Cards)
 
+#Section 5
 objShuffleCards = ShuffleCards()
 player2Cards = objShuffleCards.shuffle()
 
