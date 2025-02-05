@@ -15,4 +15,4 @@ Here, the program creates an object of the Deck class and generates the complete
 
 Section 5:
 This part shows how the ShuffleCards class works. First, it creates an object of ShuffleCards and shuffles the deck. After shuffling, the cards are assigned to player2Cards and printed to show the new order. Then the program uses the popCard method to remove and display two cards from the shuffled deck. This is just to demonstrate how the popping feature works and how the deck updates after cards are removed. 
-..
+
